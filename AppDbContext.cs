@@ -14,6 +14,7 @@ namespace CaroOnline2021
         public DbSet<Message> Messages { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<UserRoom> UserRooms { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
